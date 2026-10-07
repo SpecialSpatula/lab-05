@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "488245218963",
+    "project_id": "listycitydeletion",
+    "storage_bucket": "listycitydeletion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488245218963:android:8a4f635266aacaa6290766",
+        "android_client_info": {
+          "package_name": "com.example.listycity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7-bref2u2otVTtO6VOIhwfbR-GfdEMsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

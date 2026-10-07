@@ -1,7 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
-}
+
+    //id("com.android.application")
+
+        // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
+
+
+    }
 
 android {
     namespace = "com.example.listycity"
@@ -40,7 +47,9 @@ android {
 }
 
 dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
     implementation(platform(libs.androidx.compose.bom))
+    implementation("com.google.firebase:firebase-firestore")
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.ui)
